@@ -9,11 +9,12 @@
 
 
     <style>
-        .hd1 marquee span {
+        .hd1 ,div ,span {
             color: brown;
             background-color: antiquewhite;
-            text-align: center;
+            text-align:center;
             margin-right: 30px;
+            alt:unset ;
 
         }
 
@@ -22,6 +23,8 @@
             color: blueviolet; background-color:rgb(225, 255, 196);
             font-family: 'Sofia', cursive;
             margin: 30px;
+            text-shadow: 5px 9px 5px;
+            text-decoration-color: aqua;
 
         }
 
@@ -46,7 +49,7 @@
 
 <body>
     <header class="hd1">
-        <marquee>
+    <div>
             <span>
                 <i class="fa fa-user" style="font-size:36px"></i> </span><span> Madhuri Rane </span>
             <span>
@@ -55,29 +58,29 @@
             </span>
 
             <span> <i class="fa fa-envelope" style="font-size:36px"></i></span> <span>madhuri@gmail.com</span>
-        </marquee>
+</div>
     </header>
-    <center>
-        <nav style="width: ;77%">
+    <div>
+        <nav>
             <span id="nav_bar">
                 <a href="loginForm.html" target="frame1">HOME</a>
                 <a href="techStack.html" target="frame1">TECH STACK</a>
-                                <a href="educationInfo.html" target="frame1">EDUCATION</a>
+                <a href="educationInfo.html" target="frame1">EDUCATION</a>
                 <a href="projectInfo.html" target="frame1">PROJECT</a>
                 <a href="hobbies.html" target="frame1">HOBBIES</a>
                 <a href="personalDetails.html" target="frame1">PERSONAL</a>
-                                <a href="others.html" target="frame1">OTHERS</a>
+                 <a href="employeeAppForm.html" target="frame1">OTHERS</a>
             </span>
         </nav>
-    </center>
-    <iframe src="loginForm.html" name="frame1" height="600" width="2000" ></iframe>
+    </biv>
+    <iframe src="loginForm.html" name="frame1" height="600" width="1400" ></iframe>
 
 
 
 
 
     <footer>
-<p>
+<marquee slot="30px">
         <span class="footer"> Follow me</span>
       <span class="footer">  <a href="https://www.facebook.com/" target="_blank">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -91,7 +94,7 @@
             <i class="fa fa-instagram"></i> </a></span>
 
        
-</p>
+</marquee>
     </footer>
 
 
