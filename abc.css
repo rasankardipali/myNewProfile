@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(223, 183, 52);
+    text-align: center;
+}
+
+p {
+    color: rgb(33, 208, 150);
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+img{
+text-align: center;
+    background: rgb(34, 36, 34);
+    height: 500px;
+    width: 400px;
+}
