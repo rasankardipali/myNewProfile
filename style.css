@@ -1,0 +1,47 @@
+.container-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:10px;
+    border-color: aqua;
+    height: 5vh;
+    background-color: rgb(239, 250, 153);
+}
+.container-navbar li a{
+text-align:center;
+background: rgb(191, 76, 166);
+height: 103px;
+width: 10vw;
+display: flex;
+flex-direction: column;
+text-decoration: none;
+align-items: center;
+
+
+}
+li{
+    list-style: none;
+}
+
+.element{
+    display: inline-flex;
+   position: relative;
+margin-top:0px;
+margin-left:0px;
+}
+
+    
+.container-navbar li a:hover{
+
+    color:aquamarine;
+    background-color: rgb(231, 225, 225);
+    
+}
+.abc{
+    margin-top: 12px;
+}
+.footer,marquee,span,a{
+    color: rgb(46, 177, 85);
+    gap:10px;
+    text-align: center;
+}
