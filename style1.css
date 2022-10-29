@@ -40,7 +40,7 @@ span{
     display:flex;
     color: aqua;
     align-items: center;
-    background-color: rgb(190, 168, 168);
+    background-color: rgb(232, 179, 74);
     gap: 75px;
 height: 11vh;
 
@@ -92,3 +92,17 @@ height: 11vh;
     clear: both;
     display: table;
   }
+  .element1{
+    display: inline-flex;
+   position: relative;
+margin-top:0px;
+margin-left:0px;
+}
+
+    
+.container-navbar1 li a:hover{
+
+    color:rgb(255, 127, 255);
+    background-color: rgb(119, 142, 5);
+    
+}
