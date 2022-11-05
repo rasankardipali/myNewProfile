@@ -92,17 +92,30 @@ height: 11vh;
     clear: both;
     display: table;
   }
+  
   .element1{
-    display: inline-flex;
+    
+display: inline-flex;
    position: relative;
 margin-top:0px;
 margin-left:0px;
 }
 
     
-.container-navbar1 li a:hover{
-
-    color:rgb(255, 127, 255);
-    background-color: rgb(119, 142, 5);
+.container-navbar1 div {
+ font-size: larger;
+  display:flex;
+  color: rgb(59, 20, 5);
+  align-items: center;
+  background-color: rgb(229, 74, 232);
+  gap: 75px;
+height: 11vh;
+width: 20vw;
     
+    
+}
+input[type=button]{
+  height: 80px;
+  width:250 ;
+  color: #2196F3;
 }
